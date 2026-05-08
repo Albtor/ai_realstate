@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://mi-api-realstate.onrender.com"
+API_URL = "https://mi-api-realstate.onrender.com/propiedades"
 # API_URL_LOCAL = "https://localhost:3000"
 
 
