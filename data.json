@@ -1,0 +1,35 @@
+  {
+    "id": 1,
+    "titulo": "Piso luminoso en el centro de Madrid",
+    "tipo": "Piso",
+    "precio": 365000,
+    "preciom2": 4562.5,
+    "moneda": "EUR",
+    "vivienda": {
+      "habitaciones": 3,
+      "banos": 2,
+      "superficie_m2": 80,
+      "terraza": true,
+      "ascensor": true,
+      "garaje": false,
+      "trastero": true,
+      "planta": 4,
+      "orientacion": ["sur", "este"]
+    },
+    "edificio": {
+      "año": 1998,
+      "numVecinos": 24,
+      "numeroPlantas": 6,
+      "extras": ["portero", "videovigilancia"]
+    },
+    "ubicacion": {
+      "calle": "Calle Alcalá 120",
+      "ciudad": "Madrid",
+      "codigo_postal": "28009",
+      "provincia": "Madrid",
+      "pais": "ES",
+      "visibility": true
+    },
+    "estado": "Disponible",
+    "legalStatus": "libre"
+  }
