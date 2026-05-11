@@ -1,0 +1,38 @@
+{
+    "title": "Bright Condo with Sea View. Python*",
+    "type": "Apartment",
+    "price": 150000,
+    "currency": "EUR",
+    "property": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "surface_m2": 95,
+      "terrace": true,
+      "elevator": true,
+      "garage": false,
+      "storage_room": true,
+      "floor": 2,
+      "orientation": ["east", "south"]
+    },
+    "building": {
+      "year": 1987,
+      "neighbors": 10,
+      "floors": 2,
+      "extras": {
+        "pool": "shared",
+        "gym": true,
+        "jacuzzi": false,
+        "sports_courts": true
+      }
+    },
+    "location": {
+      "street": "15 Mayor Street",
+      "city": "Madrid",
+      "postal_code": "28001",
+      "province": "Madrid",
+      "country": "ES",
+      "visibility": true
+    },
+    "status": "Available",
+    "legalStatus": "occupied"
+  }
