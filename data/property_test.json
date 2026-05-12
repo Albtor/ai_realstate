@@ -1,38 +1,35 @@
 {
-    "title": "Bright Condo with Sea View. Python*",
-    "type": "Apartment",
-    "price": 150000,
+    "id": 1,
+    "title": "Piso luminoso en el centro de Madrid",
+    "type": "Piso",
+    "price": 365000,
+    "pricePerM2": 4562.5,
     "currency": "EUR",
-    "property": {
+    "housing": {
       "bedrooms": 3,
       "bathrooms": 2,
-      "surface_m2": 95,
+      "surface_m2": 80,
       "terrace": true,
       "elevator": true,
       "garage": false,
-      "storage_room": true,
-      "floor": 2,
-      "orientation": ["east", "south"]
+      "storageRoom": true,
+      "floor": 4,
+      "orientation": ["sur", "este"]
     },
     "building": {
-      "year": 1987,
-      "neighbors": 10,
-      "floors": 2,
-      "extras": {
-        "pool": "shared",
-        "gym": true,
-        "jacuzzi": false,
-        "sports_courts": true
-      }
+      "year": 1998,
+      "numNeighbors": 24,
+      "numFloors": 6,
+      "extras": ["portero", "videovigilancia"]
     },
     "location": {
-      "street": "15 Mayor Street",
+      "street": "Calle Alcalá 120",
       "city": "Madrid",
-      "postal_code": "28001",
+      "postalCode": "28009",
       "province": "Madrid",
       "country": "ES",
       "visibility": true
     },
-    "status": "Available",
-    "legalStatus": "occupied"
+    "status": "Disponible",
+    "legalStatus": "libre"
   }
