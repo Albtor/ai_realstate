@@ -1,35 +1,44 @@
 {
-    "id": 1,
-    "title": "Piso luminoso en el centro de Madrid",
-    "type": "Piso",
-    "price": 365000,
-    "pricePerM2": 4562.5,
+    "title": "Python Property",
+    "type": "Apartment",
+    "price": 80000,
+    "price_per_m2": 1212.5,
     "currency": "EUR",
-    "housing": {
+
+    "property": {
       "bedrooms": 3,
-      "bathrooms": 2,
+      "bathrooms": 1,
       "surface_m2": 80,
       "terrace": true,
       "elevator": true,
       "garage": false,
-      "storageRoom": true,
-      "floor": 4,
-      "orientation": ["sur", "este"]
+      "storage_room": true,
+      "floor": 5,
+      "orientation": ["south", "north"]
     },
+
     "building": {
-      "year": 1998,
-      "numNeighbors": 24,
-      "numFloors": 6,
-      "extras": ["portero", "videovigilancia"]
+      "year": 2004,
+      "neighbors": 28,
+      "floors": 7,
+
+      "extras": {
+        "pool": "shared",
+        "gym": true,
+        "jacuzzi": false,
+        "sports_courts": false
+      }
     },
+
     "location": {
-      "street": "Calle Alcalá 120",
-      "city": "Madrid",
-      "postalCode": "28009",
-      "province": "Madrid",
+      "street": "Calle Molowny 10",
+      "city": "Santa Cruz",
+      "postal_code": "38001",
+      "province": "Tenerife",
       "country": "ES",
       "visibility": true
     },
-    "status": "Disponible",
-    "legalStatus": "libre"
+
+    "status": "Available",
+    "legalStatus": "free"
   }

@@ -9,6 +9,7 @@ load_dotenv()
 CLIENT_ID = os.getenv("API_CLIENT_ID")
 CLIENT_SECRET = os.getenv("API_CLIENT_SECRET")
 AUTH_URL = os.getenv("AUTH_URL")
+print("AUTH_URL:", AUTH_URL)
 API_URL = os.getenv("API_URL")
 
 def get_properties():
@@ -18,16 +19,22 @@ def get_properties():
 
 def get_token():
     payload = {
-        "client_id": CLIENT_ID,
-        "client_secret": CLIENT_SECRET
+        "username": CLIENT_ID,
+        "password": CLIENT_SECRET
     }
+    print("\n===== AUTH PAYLOAD =====")
+    print(payload)
     response = requests.post(
         AUTH_URL,
         json=payload
     )
+    print("\n===== AUTH STATUS =====")
+    print(response.status_code)
+    print("\n===== AUTH RESPONSE =====")
+    print(response.text)
     response.raise_for_status()
     data = response.json()
-    return data["access_token"]
+    return data["token"]
 
 
 def add_property():
